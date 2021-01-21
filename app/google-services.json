@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "956914703842",
+    "firebase_url": "https://covinfo-2c772.firebaseio.com",
+    "project_id": "covinfo-2c772",
+    "storage_bucket": "covinfo-2c772.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956914703842:android:cfd791993f7199a47f6dbb",
+        "android_client_info": {
+          "package_name": "id.zoomdsaq.covinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956914703842-85t69fopj0ns4jeviqcq8veqr30ccagc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-StKYEasL_skiicrAdXzlOkyx7WWaNY8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956914703842-85t69fopj0ns4jeviqcq8veqr30ccagc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

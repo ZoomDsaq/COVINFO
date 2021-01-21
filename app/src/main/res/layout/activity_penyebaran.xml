@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.PenyebaranActivity">
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/image_penyebaran" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/judul_penyebaran_1"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_1"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_2"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/judul_penyebaran_2"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_3"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/judul_penyebaran_3"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_4"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/judul_penyebaran_4"
+                android:textStyle="bold"
+                android:textSize="25sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_5"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/penyebaran_desc_6"
+                android:textSize="20sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/sumber_penyebaran_1"
+                android:textSize="18sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/primary_text_color"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

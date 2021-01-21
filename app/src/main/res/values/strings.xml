@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">COVINFO</string>
+
+    <!-- IntroActivity -->
+    <string name="image_contentDescription">image</string>
+    <string name="image_Button_Description">imageButton</string>
+    <string name="background_image_contentDescription">backgroundcolorimage</string>
+    <string name="let_s_get_started_text">Ayo kita mulai!</string>
+    <string name="intro_text_description">Dengan COVINFO anda dapat informasi mengenai virus COVID-19.</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_up">SIGN UP</string>
+    <!-- SignupActivity -->
+    <string name="sign_up_description_text">Enter your name, email id and password, to register with us.</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <!-- SignInActivity -->
+    <string name="sign_in_description_text">Masukkan email dan password anda</string>
+    <string name="sign_in_hello_text">Halo!</string>
+
+    <!-- ProgressDialog -->
+    <string name="please_click_back_again_to_exit">Please click back again to exit.</string>
+    <string name="please_wait">Please Wait&#8230;</string>
+
+    <!-- bottomNavigation -->
+    <string name="bottom_navigation_home_title">Home</string>
+    <string name="bottom_navigation_tracker_title">Tracker</string>
+    <string name="bottom_navigation_about_title">About</string>
+
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- TrackerFragment -->
+    <string name="title_fragment_tracker">Tracker</string>
+    <string name="text_terkonfirmasi_fragment_tracker">Terkonfirmasi</string>
+    <string name="text_sembuh_fragment_tracker">Sembuh</string>
+    <string name="text_meninggal_fragment_tracker">Meninggal</string>
+    <string name="text_default_cardview_fragment_tracker">-</string>
+
+    <!-- AboutFragment -->
+    <string name="text_about_fragment">COVINFO merupakan aplikasi yang digunakan untuk mendapatkan
+    informasi tentang COVID-19 secara mobile. aplikasi ini memiliki beberapa fitur antara lain dapat
+    memantau perkembangan kasus yang terkonfirmasi di indonesia.</string>
+
+    <!-- SejarahActivity -->
+    <string name="judul_sejarah_1">Apa itu Virus Corona?</string>
+    <string name="sejarah_desc_1">Virus korona adalah sebutan untuk jenis virus yang dapat menyebabkan penyakit pada hewan dan manusia. Disebut korona karena bentuknya yang seperti mahkota (korona ~ crown = mahkota dalam bahasa Latin).</string>
+    <string name="sejarah_desc_2">Beberapa contoh penyakit pada manusia yang disebabkan oleh virus korona antara lain MERS (Sindrom Pernafasan Timur Tengah) dan SARS (Sindrom Pernafasan Akut Parah).</string>
+    <string name="sejarah_desc_3">Virus korona terbaru yang ditemukan yang ditemukan di Wuhan, Tiongkok, pada bulan Desember 2019 diberi nama SARS Coronavirus 2 (SARS-CoV-2) dan menyebabkan penyakit Coronavirus Disease 2019 (COVID-19).</string>
+    <string name="sumber_sejarah_1">Sumber: https://www.who.int/news-room/q-a-detail/q-a-coronaviruses </string>
+    <string name="judul_sejarah_2">Apa bedanya dengan COVID-19?</string>
+    <string name="sejarah_desc_4">COVID-19 adalah penyakit menular yang disebabkan oleh virus korona SARS-CoV-2. Dengan kata lain, SARS-CoV-2 adalah nama virusnya, sementara COVID-19 adalah nama penyakitnya. Ini seperti HIV yang adalah nama virus dari penyakit AIDS.</string>
+    <string name="sumber_sejarah_2">Sumber: https://www.who.int/news-room/q-a-detail/q-a-coronaviruses</string>
+    <string name="title_activity_penyebaran">PenyebaranActivity</string>
+    <string name="title_activity_gejala">GejalaActivity</string>
+
+    <!-- PenyebaranActivity -->
+    <string name="judul_penyebaran_1">Bagaimana COVID-19 menular?</string>
+    <string name="penyebaran_desc_1">Penularan terjadi melalui droplet (butir-butir tetesan cairan) dari hidung atau mulut yang menyebar saat pembawa virus COVID-19 batuk, bersin atau meler. Tetesan cairan tersebut akan menempel pada benda atau permukaan di sekitarnya. Dan kemudian masuk ke mulut, hidung atau mata. Atau menyentuh permukaan bekas terkena butir cairannya dengan tangan lalu tangan mengusap mulut, hidung atau mata. Inilah alasan pentingnya sering-sering cuci tangan dan jangan menyentuh muka dengan tangan.</string>
+    <string name="penyebaran_desc_2">Orang sehat dapat tertular saat tangan mereka menyentuh permukaan yang terkena tetesan tersebut dan kemudian tanpa sadar menyentuh mata, mulut, ataupun hidung (selaput lendir). Virus juga bisa masuk saat orang sehat secara tidak sengaja menghirup tetesan cairan saat si pembawa virus batuk atau bersin.</string>
+    <string name="judul_penyebaran_2">Berapa lama tetesan cairan berisi virus itu bisa hidup di permukaan atau menempel pada benda? </string>
+    <string name="penyebaran_desc_3">Masih belum pasti berapa lama virus ini dapat bertahan di permukaan, tetapi tampaknya virus ini memiliki karakteristik yang sama dengan virus korona lainnya. Studi menunjukkan bahwa virus korona (termasuk beberapa informasi awal tentang COVID-19) dapat bertahan selama beberapa jam di permukaan. Ini dapat bervariasi di dalam kondisi yang berbeda (mis. jenis permukaan, suhu atau kelembaban lingkungan). Tetapi sabun maupun cairan disinfektan sederhana dapat membunuhnya.</string>
+    <string name="judul_penyebaran_3">Apakah tetesan cairan tersebut bisa menempel pada permukaan lembut (contohnya, baju dan karpet) atau permukaan keras (misal, keyboard laptop dan gagang pintu)?</string>
+    <string name="penyebaran_desc_4">Sampai saat ini, tidak ada bukti bahwa COVID-19 bisa ditularkan ke manusia lainnya saat tetesan cairan menempel pada permukaan halus. Namun, COVID-19 bisa ditularkan lewat permukaan keras seperti pegangan pintu.</string>
+    <string name="judul_penyebaran_4">Awal mula COVID-19 di Indonesia</string>
+    <string name="penyebaran_desc_5">Pada 2 Maret 2020, untuk pertama kalinya pemerintah mengumumkan dua kasus pasien positif Covid-19 di Indonesia.</string>
+    <string name="penyebaran_desc_6">Namun, Pakar Epidemiologi Universitas Indonesia (UI) Pandu Riono menyebutkan virus corona jenis SARS-CoV-2 sebagai penyebab Covid-19 itu sudah masuk ke Indonesia sejak awal Januari.</string>
+    <string name="sumber_penyebaran_1">https://www.kompas.com/sains/read/2020/05/11/130600623/diumumkan-awal-maret-ahli--virus-corona-masuk-indonesia-dari-januari</string>
+
+    <!-- PencegahanActivity -->
+    <string name="judul_pencegahan_1">Untuk mencegah penyebaran COVID-19</string>
+    <string name="pencegahan_desc_1"> -Bersihkan tangan Anda secara rutin.\n <br>-Gunakan sabun dan air, atau cairan pembersih tangan berbahan alkohol.\n</br> <br>-Selalu jaga jarak yang aman dengan orang yang batuk atau bersin.\n</br> <br>-Jangan sentuh mata, hidung, atau mulut Anda.\n</br> <br>-Saat Anda batuk atau bersin, tutup mulut dan hidung dengan lengan Anda atau tisu.\n</br> <br>-Tetaplah di rumah jika Anda merasa tidak enak badan.\n</br> <br>-Jika Anda demam, batuk, atau kesulitan bernapas segera cari bantuan medis.\n</br> <br>-Hubungi terlebih dahulu. Ikuti arahan otoritas kesehatan lokal Anda.\n</br></string>
+    <string name="judul_pencegahan_2">Apakah COVID-19 sudah ada obatnya? Bila sudah ada, apakah dijual bebas di apotik atau toko obat?</string>
+    <string name="pencegahan_desc_2">Sampai saat ini, obat spesifik untuk COVID-19 belum ditemukan. Akan tetapi, penelitian terus dilakukan oleh berbagai pihak. Penanganan saat ini fokus pada gejala yang timbul dari penderita. Sementara itu, penderita dengan gejala yang lebih serius harus dirawat di rumah sakit. Sebagian besar penderita sembuh karena perawatan intensif.</string>
+
+
+    <!-- GejalaActivity -->
+    <string name="judul_gejala_1">Gejala Virus Corona (COVID-19)</string>
+    <string name="gejala_desc_1">Gejala awal infeksi virus Corona atau COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat. Penderita dengan gejala yang berat bisa mengalami demam tinggi, batuk berdahak bahkan berdarah, sesak napas, dan nyeri dada. Gejala-gejala tersebut muncul ketika tubuh bereaksi melawan virus Corona.</string>
+    <string name="judul_gejala_2">Jika seseorang terinfeksi virus ini, berapa lama sampai muncul gejala?</string>
+    <string name="gejala_desc_2">Masa inkubasi (dari masuknya virus ke dalam tubuh sampai munculnya gejala awal) adalah 1 – 14 hari, dengan rata-rata timbulnya gejala selama 5 hari.</string>
+    <string name="judul_gejala_3">Apa yang dimaksud dengan simptomatik dan asimptomatik?</string>
+    <string name="gejala_desc_3">Simptomatik artinya bergejala. Jadi, bila seseorang terinfeksi virus ini, akan timbul gejala yang umumnya diawali dengan demam dan rasa tidak enak badan, diikuti batuk kering (dalam waktu seminggu) yang jika memberat bisa diikuti sesak napas. </string>
+    <string name="gejala_desc_4">Beberapa orang yang terinfeksi tidak menunjukkan gejala sama sekali. Ini yang disebut sebagai asimptomatik. Sampai saat ini bukti ilmiah menunjukkan bahwa risiko penularan dari pasien COVID-19 yang asimptomatik sangat kecil.  </string>
+    <string name="judul_gejala_4">Bagaimanakah tingkat kematian akibat penyakit ini jika dilihat dari kelompok usia?</string>
+    <string name="gejala_desc_5">Berdasarkan data yang sama, tingkat kematian akibat penyakit ini sesuai golongan umur adalah sebagai berikut:<br>\n 0-9 tahun : 0% \n</br>
+    <br>10-19 : 0,2% \n</br>
+    <br>20-29 : 0,2% \n</br>
+    <br>30-39 : 0,2% \n</br>
+    <br>40-49 : 0,4% \n</br>
+    <br>50-59 : 1,3% \n</br>
+    <br>60-69 : 3,6% \n</br>
+    <br>70-79 : 8.0% \n</br>
+    <br>>80 : 14,8% \n</br></string>
+
+
+</resources>

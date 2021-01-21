@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HomeFragment">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/main_top_background_height"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/background_image_contentDescription"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center">
+
+            <ImageView
+                android:layout_width="170dp"
+                android:layout_height="160dp"
+                android:src="@drawable/covinfo"
+                android:contentDescription="@string/image_contentDescription"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_weight="2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                tools:ignore="NestedWeights,UselessParent">
+
+                <ImageButton
+                    android:id="@+id/btn_sejarah"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/sejarah"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:background="@color/imagebutton_white_color"
+                    android:foreground="?selectableItemBackground"
+                    android:contentDescription="@string/image_Button_Description"/>
+
+                <ImageButton
+                    android:id="@+id/btn_penyebaran"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/penyebaran"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/imagebutton_white_color"
+                    android:foreground="?selectableItemBackground"
+                    android:contentDescription="@string/image_Button_Description" />
+            </LinearLayout>
+            <LinearLayout
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                tools:ignore="NestedWeights,UselessParent">
+
+                <ImageButton
+                    android:id="@+id/btn_gejala"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/gejala"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:background="@color/imagebutton_white_color"
+                    android:foreground="?selectableItemBackground"
+                    android:contentDescription="@string/image_Button_Description"/>
+
+                <ImageButton
+                    android:id="@+id/btn_pencegahan"
+                    android:layout_width="140dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/pencegahan"
+                    android:padding="10dp"
+                    android:elevation="10dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@color/imagebutton_white_color"
+                    android:foreground="?selectableItemBackground"
+                    android:contentDescription="@string/image_Button_Description" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

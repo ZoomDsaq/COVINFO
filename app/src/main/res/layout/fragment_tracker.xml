@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".fragments.TrackerFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/fragment_tracker_title_text_marginTop"
+        android:text="@string/title_fragment_tracker"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/fragment_tracker_title_text_size"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="@dimen/fragment_tracker_card_view_layout_width"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/fragment_tracker_card_view_layout_marginVertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_terkonfirmasi_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+            <TextView
+                android:id="@+id/text_view_terkonfirmasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_default_cardview_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/fragment_tracker_card_view_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/fragment_tracker_card_view_layout_marginVertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_sembuh_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+            <TextView
+                android:id="@+id/text_view_sembuh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_default_cardview_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="@dimen/fragment_tracker_card_view_layout_width"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="@dimen/fragment_tracker_card_view_layout_marginVertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorAccent"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_meninggal_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+            <TextView
+                android:id="@+id/text_view_meninggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_default_cardview_fragment_tracker"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fragment_tracker_text_size"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/btn_provinsi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/white_border_shape_button_rounded_accent_color"
+        android:foreground="?attr/selectableItemBackground"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Provinsi"
+        android:textColor="@color/primary_text_color"
+        android:textSize="@dimen/btn_text_size" />
+
+</LinearLayout>
